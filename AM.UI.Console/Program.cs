@@ -24,7 +24,7 @@ using System.ComponentModel;
 //personne.Nom = "Mouhib";
 //personne.Prenom = "Saleh";
 //personne.Password = "0000";
-//personne.Email = "saleh.mouib@esprit.tn";
+//personne.Email = "";
 //personne.DateNaissance = new DateTime(20, 12, 31, 15, 45, 54);
 //Console.WriteLine(personne.ToString());
 //Personne personne2 = new Personne(
@@ -58,7 +58,7 @@ Passanger pass1 = new Passanger
 {
     FirstName = "mariem",
     LastName = "aljene",
-    EmailAddress = "mariem.aljene@esprit.tn"
+    EmailAddress = ""
 
 
 };
