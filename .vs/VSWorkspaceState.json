@@ -5,8 +5,8 @@
     "\\AM.ApplicationCore\\Domain",
     "\\AM.ApplicationCore\\Interfaces",
     "\\AM.ApplicationCore\\Services",
+    "\\AM.Infrastructure",
     "\\AM.UI.Console"
   ],
-  "SelectedNode": "\\AM.ApplicationCore\\AM.ApplicationCore.csproj",
   "PreviewInSolutionExplorer": false
 }

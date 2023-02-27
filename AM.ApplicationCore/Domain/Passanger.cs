@@ -9,13 +9,22 @@ namespace AM.ApplicationCore.Domain
 {
     public class Passanger
     {
-       public DateTime BirthDate { get; set; }
+        [Display(Name = "Date of Birth")]
+        [DataType(DataType.Date)]
+        public DateTime BirthDate { get; set; }
         [Key]
-       public int PassportNumber { get; set; }
+        [StringLength(7)]
+        public int PassportNumber { get; set; }
+        [EmailAddress]
         public string EmailAddress { get; set; }
+        [Required]
+        [MinLength(3)]
+        [MaxLength(25)]
         public string FirstName { get; set; }
         public string LastName { get; set; }
+        [RegularExpression(@"^\d{8}$", ErrorMessage = "Telephone number must contain 8 digits.")]
         public int TelNumber { get; set; }
+        public List<Flight> Flights { get; set; }
         public override string ToString()
         {
             return $"BirthDate: {BirthDate}, PassportNumber: {PassportNumber}, EmailAddress: {EmailAddress}, FirstName: {FirstName}, LastName: {LastName}, TelNumber: {TelNumber}";
