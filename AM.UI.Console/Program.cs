@@ -24,7 +24,7 @@ using System.ComponentModel;
 //personne.Nom = "Mouhib";
 //personne.Prenom = "Saleh";
 //personne.Password = "0000";
-//personne.Email = "saleh.mouib@esprit.tn";
+//personne.Email = "";
 //personne.DateNaissance = new DateTime(20, 12, 31, 15, 45, 54);
 //Console.WriteLine(personne.ToString());
 //Personne personne2 = new Personne(
@@ -58,7 +58,7 @@ Passanger pass1 = new Passanger
 {
     FirstName = "mariem",
     LastName = "aljene",
-    EmailAddress = "mariem.aljene@esprit.tn"
+    EmailAddress = ""
 
 
 };
@@ -107,6 +107,33 @@ Func<string, Flight, bool> dateFilterFunc = (date, flight) =>
     flight.FlightDate.Equals(DateTime.Parse(date));
 service.GetFlights(dateFilter, dateFilterFunc);
 
+
+Console.WriteLine("LinQ");
+
+IList<DateTime> flightDates = service.GetFlightDateslinq("Paris");
+
+// display the list of flight dates
+Console.WriteLine("Flight dates for {0}:", "Paris");
+foreach (DateTime flightDate in flightDates)
+{
+    Console.WriteLine(flightDate.ToString("yyyy/MM/dd"));
+}
+
+int x = 45;
+Console.WriteLine(x.Add(4));
+
+Passanger pass1 = new Passanger
+{
+    FirstName = "mariem",
+    LastName = "aljene",
+    EmailAddress = ""
+
+
+};
+pass1.UpperFullName();
+Console.WriteLine(pass1.UpperFullName());
+
+string chaine = Console.ReadLine();
 
 
 

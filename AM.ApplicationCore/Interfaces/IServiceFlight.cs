@@ -9,7 +9,12 @@ namespace AM.ApplicationCore.Interfaces
 {
     public interface IServiceFlight
     {
+     
         public IEnumerable<DateTime> getFlightDates(String Destination);
         public void GetFlights(string filterValue, Func<string, Flight, Boolean> func);
+        //   public void ShowFlightDetails(Plane plane);
+        //   public int ProgrammedFlightNumber(DateTime startDate);
+        //   public IList<Traveller> SeniorTravellers(Flight flight);
+       
     }
 }

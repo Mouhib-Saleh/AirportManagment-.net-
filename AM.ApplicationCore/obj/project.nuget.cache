@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "8jUlVz+W3ix09sqKn7DWeJIaIOO2ZQSRrsCJ42b+ga845zlhj8XQnWC3Dl9AdTQ459Y2RdOOR4weODZPIiPN7w==",
+  "dgSpecHash": "l5d+HUotFyjwm6y0jYeeK32q1Z4uR+TpQtlSVLnVB9q/Vci1mNsn1p2srQae3CqALtusGWh+Cneuk+0QmJS1cA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\mouhi\\Desktop\\.Net\\AirportManagement\\AM.ApplicationCore\\AM.ApplicationCore.csproj",
+  "projectFilePath": "C:\\Users\\mouhi\\Desktop\\Workspaces\\.Net\\AirportManagement\\AM.ApplicationCore\\AM.ApplicationCore.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
