@@ -8,9 +8,53 @@ namespace AM.ApplicationCore.Domain
 {
     public static class TestData
     {
-        public static List<Plane> Planes { get; set; } = new List<Plane>() { new Plane() { Capacity = 150, ManufactureDate = new DateTime(), PlaneType = PlaneType.Boing }, new Plane() { Capacity = 250, ManufactureDate = new DateTime(), PlaneType = PlaneType.Airbus } };
-        public static List<Staff> Staffs { get; set; } = new List<Staff>() { new Staff() { FirstName = "Captain", LastName = "Captain", EmailAddress = "fdfffdf", BirthDate = new DateTime(), EmployementDate = new DateTime(), Salary = 90099 } };
-        public static List<Traveller> Travellers { get; set; } = new List<Traveller> { new Traveller() { FirstName="Travaller1" ,LastName="Travaller1" , EmailAddress="ffdfdfdfdf",BirthDate=new DateTime(),HealthInformation="no trouble",Nationality="Amercian"} };
-        public static List<Flight> Flights { get; set; } = new List<Flight> { new Flight() { FlightDate=new DateTime(),Destination="Paris",EffectiveArrival=new DateTime(), plane = Planes[1], EstimatedDuration = 110, passangers = new List<Passanger>(Travellers) } };
+        public static List<Plane> Planes { get; set; } = new List<Plane>(){
+        new Plane
+        {
+            Capacity=300,
+            ManufactureDate=new DateTime(),
+            PlaneType=PlaneType.Boing
+        },
+        new Plane
+        {
+            PlaneType=PlaneType.Airbus,
+            Capacity=400,
+            ManufactureDate=new DateTime(2020,11,11),
+        }
+        };
+        public static List<Staff> Staffs { get; set; } = new List<Staff>()
+        {
+            new Staff
+            {
+               //  FirstName="Captain",
+               //  LastName="Captain",
+                 EmailAddress="captain.captain@gmail.com",
+                 BirthDate=new DateTime(1965,01,01),
+                 EmployementDate=new DateTime(1999,01,01),
+                 Salary=99999
+            }
+        };
+        public static List<Traveller> Travellers { get; set; } = new List<Traveller>()
+        {
+            new Traveller
+            {
+               // Fullname="malek",
+              //  LastName="abbes",
+                EmailAddress="traveller1@gmail.com",
+                Nationality="Americain",
+                BirthDate=new DateTime(1988,02,04)
+            }
+        };
+        public static List<Flight> Flights { get; set; } = new List<Flight>()
+        {
+            new Flight
+            {
+                Departure="Paris",
+                EffectiveArrival=new DateTime(2022-12-11),
+                plane=Planes[1],
+                passangers=new List<Passanger>(Travellers)
+            }
+        };
+
     }
 }

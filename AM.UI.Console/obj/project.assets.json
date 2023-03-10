@@ -1147,6 +1147,9 @@
       "AM.ApplicationCore/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore.Abstractions": "7.0.3"
+        },
         "compile": {
           "bin/placeholder/AM.ApplicationCore.dll": {}
         },
@@ -3513,11 +3516,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\mouhi\\Desktop\\Workspaces\\.Net\\AirportManagement\\AM.UI.Console\\AM.UI.Console.csproj",
+      "projectUniqueName": "C:\\Users\\mouhi\\Desktop\\Workspaces\\.Net\\Correction\\AirportManagement\\AM.UI.Console\\AM.UI.Console.csproj",
       "projectName": "AM.UI.Console",
-      "projectPath": "C:\\Users\\mouhi\\Desktop\\Workspaces\\.Net\\AirportManagement\\AM.UI.Console\\AM.UI.Console.csproj",
+      "projectPath": "C:\\Users\\mouhi\\Desktop\\Workspaces\\.Net\\Correction\\AirportManagement\\AM.UI.Console\\AM.UI.Console.csproj",
       "packagesPath": "C:\\Users\\mouhi\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\mouhi\\Desktop\\Workspaces\\.Net\\AirportManagement\\AM.UI.Console\\obj\\",
+      "outputPath": "C:\\Users\\mouhi\\Desktop\\Workspaces\\.Net\\Correction\\AirportManagement\\AM.UI.Console\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\mouhi\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -3534,11 +3537,11 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\mouhi\\Desktop\\Workspaces\\.Net\\AirportManagement\\AM.ApplicationCore\\AM.ApplicationCore.csproj": {
-              "projectPath": "C:\\Users\\mouhi\\Desktop\\Workspaces\\.Net\\AirportManagement\\AM.ApplicationCore\\AM.ApplicationCore.csproj"
+            "C:\\Users\\mouhi\\Desktop\\Workspaces\\.Net\\Correction\\AirportManagement\\AM.ApplicationCore\\AM.ApplicationCore.csproj": {
+              "projectPath": "C:\\Users\\mouhi\\Desktop\\Workspaces\\.Net\\Correction\\AirportManagement\\AM.ApplicationCore\\AM.ApplicationCore.csproj"
             },
-            "C:\\Users\\mouhi\\Desktop\\Workspaces\\.Net\\AirportManagement\\AM.Infrastructure\\AM.Infrastructure.csproj": {
-              "projectPath": "C:\\Users\\mouhi\\Desktop\\Workspaces\\.Net\\AirportManagement\\AM.Infrastructure\\AM.Infrastructure.csproj"
+            "C:\\Users\\mouhi\\Desktop\\Workspaces\\.Net\\Correction\\AirportManagement\\AM.Infrastructure\\AM.Infrastructure.csproj": {
+              "projectPath": "C:\\Users\\mouhi\\Desktop\\Workspaces\\.Net\\Correction\\AirportManagement\\AM.Infrastructure\\AM.Infrastructure.csproj"
             }
           }
         }

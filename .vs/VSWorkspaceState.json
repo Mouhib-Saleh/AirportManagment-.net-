@@ -1,12 +1,7 @@
 {
   "ExpandedNodes": [
-    "",
-    "\\AM.ApplicationCore",
-    "\\AM.ApplicationCore\\Domain",
-    "\\AM.ApplicationCore\\Interfaces",
-    "\\AM.ApplicationCore\\Services",
-    "\\AM.Infrastructure",
-    "\\AM.UI.Console"
+    ""
   ],
+  "SelectedNode": "\\.gitignore",
   "PreviewInSolutionExplorer": false
 }

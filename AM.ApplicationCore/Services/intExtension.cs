@@ -8,9 +8,9 @@ namespace AM.ApplicationCore.Services
 {
     public static class IntExtension
     {
-        public static int Add(this int a, int b)
-        {
-            return a + b;
-        }
+        public static int Add(this int a,int b)
+    {
+        return a + b;
+    }
     }
 }
